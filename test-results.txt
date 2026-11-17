@@ -1,0 +1,116 @@
+
+> conflict-economy-ventures-2040-3d@3.1.0 test
+> node --test tests/*.test.js
+
+TAP version 13
+# Subtest: AI controls: 0 to 4 rivals, personality, leave minimum one human seat
+ok 1 - AI controls: 0 to 4 rivals, personality, leave minimum one human seat
+  ---
+  duration_ms: 3.778014
+  type: 'test'
+  ...
+# Subtest: one human versus three AI: balanced assignment, briefing, AI responses and synchronized reveal
+ok 2 - one human versus three AI: balanced assignment, briefing, AI responses and synchronized reveal
+  ---
+  duration_ms: 8.017479
+  type: 'test'
+  ...
+# Subtest: two human teams and two AI do not reveal until both humans submit
+ok 3 - two human teams and two AI do not reveal until both humans submit
+  ---
+  duration_ms: 2.323798
+  type: 'test'
+  ...
+# Subtest: zero-AI classic human mode remains unchanged
+ok 4 - zero-AI classic human mode remains unchanged
+  ---
+  duration_ms: 1.158879
+  type: 'test'
+  ...
+# Subtest: AI decisions react to morale, instability, human lead and personality
+ok 5 - AI decisions react to morale, instability, human lead and personality
+  ---
+  duration_ms: 0.519557
+  type: 'test'
+  ...
+# Subtest: AI reacts privately to human trade offer; AI-initiated offers are visible to target phone
+ok 6 - AI reacts privately to human trade offer; AI-initiated offers are visible to target phone
+  ---
+  duration_ms: 3.418794
+  type: 'test'
+  ...
+# Subtest: poaching bids sent to phones can be defended with an actual workforce-retention decision
+ok 7 - poaching bids sent to phones can be defended with an actual workforce-retention decision
+  ---
+  duration_ms: 3.739717
+  type: 'test'
+  ...
+# Subtest: AI submits autonomously within 3–6 seconds while humans are still debating
+ok 8 - AI submits autonomously within 3–6 seconds while humans are still debating
+  ---
+  duration_ms: 6152.966256
+  type: 'test'
+  ...
+# Subtest: diplomatic AI spends influence in stability collapse; profiteer conserves political capital
+ok 9 - diplomatic AI spends influence in stability collapse; profiteer conserves political capital
+  ---
+  duration_ms: 2.581083
+  type: 'test'
+  ...
+# Subtest: manual early reveal and short timer never penalize a simulated opponent for waiting
+ok 10 - manual early reveal and short timer never penalize a simulated opponent for waiting
+  ---
+  duration_ms: 1.084782
+  type: 'test'
+  ...
+# Subtest: five distinct rounds, three/five mode and shared story
+ok 11 - five distinct rounds, three/five mode and shared story
+  ---
+  duration_ms: 1.535255
+  type: 'test'
+  ...
+# Subtest: four resource-specific scenarios at each stage
+ok 12 - four resource-specific scenarios at each stage
+  ---
+  duration_ms: 0.444366
+  type: 'test'
+  ...
+# Subtest: QR-style room joins, balanced random teams, shared story, separate secret mandates
+ok 13 - QR-style room joins, balanced random teams, shared story, separate secret mandates
+  ---
+  duration_ms: 13.545645
+  type: 'test'
+  ...
+# Subtest: income compounds; severe wage cuts trigger strikes and stop passive income; mediation can reopen work
+ok 14 - income compounds; severe wage cuts trigger strikes and stop passive income; mediation can reopen work
+  ---
+  duration_ms: 2.583161
+  type: 'test'
+  ...
+# Subtest: teams can trade by private offers, offers not visible publicly until reveal, independent VC ratings
+ok 15 - teams can trade by private offers, offers not visible publicly until reveal, independent VC ratings
+  ---
+  duration_ms: 6.642409
+  type: 'test'
+  ...
+# Subtest: quick mode skips rounds 2 and 4 and finishes on summit
+ok 16 - quick mode skips rounds 2 and 4 and finishes on summit
+  ---
+  duration_ms: 2.786942
+  type: 'test'
+  ...
+# Subtest: intel investment unlocks advanced option and warns player; regional collapse triggers crisis
+ok 17 - intel investment unlocks advanced option and warns player; regional collapse triggers crisis
+  ---
+  duration_ms: 2.123233
+  type: 'test'
+  ...
+1..17
+# tests 17
+# suites 0
+# pass 17
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 6254.426757
